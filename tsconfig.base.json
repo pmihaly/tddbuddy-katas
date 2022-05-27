@@ -1,0 +1,23 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2019", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@tddbuddy-katas/hundred-doors": ["libs/hundred-doors/src/index.ts"],
+      "@tddbuddy-katas/robot-factory": ["libs/robot-factory/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
