@@ -2,6 +2,7 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
-    "hundred-doors": "libs/hundred-doors"
+    "hundred-doors": "libs/hundred-doors",
+    "todo-list": "libs/todo-list"
   }
 }

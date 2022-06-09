@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@tddbuddy-katas/hundred-doors": ["libs/hundred-doors/src/index.ts"],
-      "@tddbuddy-katas/robot-factory": ["libs/robot-factory/src/index.ts"]
+      "@tddbuddy-katas/robot-factory": ["libs/robot-factory/src/index.ts"],
+      "@tddbuddy-katas/todo-list": ["libs/todo-list/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
