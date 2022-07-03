@@ -1,7 +1,7 @@
-import { todoList } from './todo-list';
+import { todoList } from './todo-list'
 
 describe('todoList', () => {
   it('should work', () => {
-    expect(todoList()).toEqual('todo-list');
-  });
-});
+    expect(todoList()).toEqual('todo-list')
+  })
+})

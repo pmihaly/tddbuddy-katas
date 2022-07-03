@@ -1,21 +1,20 @@
-export const statuses = ['incomplete', 'completed'] as const;
-export type Status = typeof statuses[number];
+export const statuses = ['incomplete', 'completed'] as const
+export type Status = typeof statuses[number]
 
 export type Completable = {
-  status: Status;
+  status: Status
 }
 
 export type Expirable = {
-  due: Date;
+  due: Date
 }
 
 export type Identifiable = {
-  id: number;
+  id: number
 }
 
 export type Nameable = {
-  name: string;
+  name: string
 }
 
 export type Task = Identifiable & Completable & Expirable & Nameable
-

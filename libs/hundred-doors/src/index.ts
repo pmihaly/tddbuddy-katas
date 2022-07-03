@@ -1,1 +1,1 @@
-export * from './lib/hundred-doors';
+export * from './lib/hundred-doors'
