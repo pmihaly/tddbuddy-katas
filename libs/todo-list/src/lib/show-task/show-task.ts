@@ -1,4 +1,4 @@
-import { Expirable, Identifiable, Nameable } from '../todo-list.types';
+import { Expirable, Identifiable, Nameable } from "../task/task.type";
 
 const padZero = (s: number): string => ('0' + s).slice(-2);
 

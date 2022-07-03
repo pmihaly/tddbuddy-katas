@@ -1,4 +1,4 @@
-import { Task } from '../todo-list.types';
+import { Task } from '../task/task.type';
 import { showTask } from './show-task'
 
 

@@ -19,5 +19,3 @@ export type Nameable = {
 
 export type Task = Identifiable & Completable & Expirable & Nameable
 
-
-
